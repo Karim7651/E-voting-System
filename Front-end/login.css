@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', 'Arial', sans-serif;
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white
+}
+.container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 20svw;
+    padding: 20px 0px;
+    border:1px solid black;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: inset -2px -2px rgba(0,0,0,0.5);
+    border-radius: 25px;
+}
+#box{
+    padding: 12px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color:white;
+    transition: 0.2s;
+}
+#submitButton{
+    padding :10px 20px;
+    margin-top: 20px;
+    width :50%;
+    background-color: rgba(0,0,0 , 0.5);
+    color:white;
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.3);
+    border: none;
+    outline:none;
+    border-radius: 20px;
+    transition:0.2s;
+}
+#box:focus{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1);
+}
+#submitButton:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1);
+}
+#link{
+    text-decoration:none ;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+#link:hover{
+    color: rgb(73, 73, 73);
+}

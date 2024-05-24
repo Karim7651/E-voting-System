@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    font-family: 'Nunito', 'Arial', sans-serif;
+
+}
+.navList{
+    height: 7vh;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 0 15px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+    font-size: larger;
+}
+.nav li a:hover{
+    color : black;
+}
+.votes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#voteTitle{
+    align-self: center;
+}
+#voteCard{
+    color:white;
+    width: 25svw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    margin: 10vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.options{
+    display: flex;
+}
+input{
+    margin-bottom: 2vh;
+}
+#submitButton{
+    color: white;
+    font-weight: 600;
+    background-color: #282828;
+    align-self:center;
+    width: 40%;
+    height: 4svh;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
